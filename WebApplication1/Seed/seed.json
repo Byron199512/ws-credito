@@ -1,0 +1,57 @@
+{
+  "status": [
+    {
+      "name": "new",
+      "description": "Nueva Solicitud"
+    },
+    {
+      "name": "check",
+      "description": "En Revisión"
+    },
+    {
+      "name": "complete",
+      "description": "Completado"
+    },
+    {
+      "name": "reject",
+      "description": "Rechazado"
+    }
+  ],
+  "requestTypes": [
+    {
+
+      "name": "Micro",
+      "minAmount": 5000,
+      "maxAmount": 20000,
+      "term": "Aplica solo para pequeñas empresas"
+    },
+    {
+
+      "name": "Comercial",
+      "minAmount": 20000,
+      "maxAmount": 60000,
+      "term": "Aplica solo para medianas empresas"
+    },
+    {
+
+      "name": "Pymes",
+      "minAmount": 60000,
+      "maxAmount": 150000,
+      "term": "Aplica solo para grandes empresas"
+    }
+  ],
+  "roles": [
+    {
+      "name": "asesor",
+      "isActive": true
+    },
+    {
+      "name": "admin",
+      "isActive": true
+    },
+    {
+      "name": "client",
+      "isActive": true
+    }
+  ]
+}
