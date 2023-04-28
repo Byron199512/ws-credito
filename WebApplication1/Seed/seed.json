@@ -53,5 +53,25 @@
       "name": "client",
       "isActive": true
     }
+  ],
+  "adviser": [
+    {
+      "name": "Metal",
+      "lastName": "Slug",
+      "email": "asesor1@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "Goku",
+      "lastName": "Kakaroto",
+      "email": "asesor2@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "Bulma",
+      "lastName": "Corporacion",
+      "email": "asesor3@gmail.com",
+      "password": "123456"
+    }
   ]
 }

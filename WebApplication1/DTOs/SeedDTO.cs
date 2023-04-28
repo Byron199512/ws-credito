@@ -7,5 +7,9 @@
 
         public List<RolDTO> Roles { get; set; }
 
+        public List<UserDTO> Adviser { get; set; }
+
+        public int idRol { get; set; }
+
     }
 }
